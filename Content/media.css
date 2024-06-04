@@ -1,0 +1,666 @@
+@media only screen and (min-width: 995px) and (max-width: 1199px) {
+      /* Body App Page */
+    .AppBodyPage {
+    display: block;
+    min-height: 800px;
+    }  
+
+   /* Menu */
+      .pruebas.mini {display: none;}
+      .primaryNav .widgetTabNav_transmisiones, .primaryNav .widgetTabNav_noticias {margin: 0 18px 0 0}
+      .ctnTabNav .quienes-somos {box-shadow: inset 580px 70px 230px 0px #fff;}
+      .primaryNav .ctnChild_1 #ctnTagList {width: 70%;}
+      .primaryNav .itemTab {padding: 20px 10% 56px 20px;}
+   /* Media carousel */
+
+      #owl-carouselPortada .owl-controls, #owl-carouselPortada .owl-controls .owl-buttons {width: 996px;}
+      #owl-carouselPortada .img-carousel img{min-width: initial; width: 100%;}
+      #owl-carouselPortada .title-item-carousel h1{padding: 0 50px;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-prev{left: 0;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-next {right: 0;}
+      #owl-carouselPortada .img-carousel{min-height:initial;}
+      .ntcEnterateSeccion .itemPost.ntf {margin-left: 0}
+
+   /* Servicios portada */
+
+      .listaServicios {padding: 20px;}
+      .listaServicios li {width: 100%;font-size:13px;}
+      .boxService_ ul {display: block;height: 69%;}
+
+   /* Contacto */
+
+      .imagBox {width: 664px !important;}
+      .ntcFull.insideNtcFull .itemPost .estractPost {height: 40px; overflow: hidden;}
+   /*METAS portada*/
+      .tooltipMeta {width: 200px;left: calc(50% - 100px);height: 220px;top: -230px;}
+      .tooltipMeta img {display: none;}
+      .tooltipMeta  dl {left: 0;padding: 16px;}
+      .tooltipMeta a {right: 20px;}
+      .boxid_.metasEducacion .ctnMetas ul li:hover .tooltipMeta {top: -240px;}
+   }
+   /* Direcciones */
+      .boxid_.direccionHeader .ctnDireccionTitle {top: 43px;}
+   
+@media only screen and (min-width: 769px) and (max-width: 995px) {
+    /* Body App Page */
+    .AppBodyPage {
+    display: block;
+    min-height: 800px;
+    }  
+
+   /* BIBLIOTECA DIRECCIONES */
+
+      .sidebarBiblioteca {margin: -10px 0 0 -8px;box-shadow: none;padding-right: 0;}
+      .sidebarBiblioteca ul li a {font-size: 12px;}
+      .boxDocumentos .contentDocs ul li .typeDocs, .boxDocumentos .contentDocs ul li .dateDocs {display: none;}
+      .sidebarBiblioteca ul li a:before {/* right: 35px; */}
+      .sidebarBiblioteca ul li a:hover:before {content: "\e93c";/* right: 1%; */}
+
+   /* Menu */
+      a.linkpruebas {display:none;}
+      .primaryNav .widgetTabNav_transmisiones, .primaryNav .widgetTabNav_noticias {margin: 0 16px 0 0;}
+      .primaryNav .imageTabNav, .primaryNav .transmisionesTabNav {height: 120px;}
+      .primaryNav .titleList {font-size: 13px;}
+      .primaryNav #servicios .ctnChild_1 ul {max-width: 30%;}
+      #ctnTagList li {font-size: 10px;}
+      .primaryNav .itemTab {padding: 20px 5% 21px 20px;background-size: cover;}
+      .primaryNav #sobre-nosotros .ctnChild_1 ul {min-width: 30%;}
+      ul.radioTvEducativa.a_right {display: none;}
+
+   /* buscador */
+
+      .boxMainSearch #formMainSearch input[type="text"]{width: calc(80% - 24px); height: 27px; border: 2px solid #0056a6; padding: 10px 10px; font-size: 16px; font-weight: normal; color: #666666; background: #fff; float: left; outline: none; }
+      .boxMainSearch #formMainSearch .boxSubmitMainSearch {background:#0056a6;display: block;overflow: hidden;/* width: 20%; */height: 51px;font-family: 'gpweb';z-index: 0;position: relative;}
+
+   /*  Seccion de videos  */
+
+      .catVideos .ntcVideos .videoFull .itemPost .titlePost {margin-top: 15px; margin-left: 0; padding: 0; width: 100%; margin-bottom: 5px; clear: both; }
+      .catVideos .ntcVideos .videoFull .itemPost .estractPost { margin-left: 0; margin-bottom: 5px; height: 28px; } 
+      .catVideos .ntcVideos .videoFull .itemPost .datePost { margin-left: 0; margin-bottom: 5px; } 
+      .ntcVideos .shareVideos {margin-left: 0; padding: 0; margin-top: 5px;   }
+      .boxid_.catVideos .itemRelacionados { overflow: hidden; margin-left: 0; margin-top: 0; }
+      .boxid_.catVideos .itemRelacionados .itemPost .imgPost { position: relative;  overflow: hidden; width: 100%;  height: 100px; max-height: 105px;  margin-bottom: 6px; }
+      .catVideos .ntcVideos .itemRelacionados .itemPost .titlePost {font-size: 14px; line-height: 17px; }
+
+   /* Con los pies en las escuelas */
+
+      .ntcPiesEscuelas .itemPost {width: 100%;margin-bottom: 15px;}
+      .ntcPiesEscuelas .itemPost .imgPost {float: left;overflow: hidden;width: 120px;height: 80px;}
+      .ntcPiesEscuelas .itemPost .datePost,.ntcPiesEscuelas .itemPost .titlePost {margin-left: 136px;margin-top: 0;margin-bottom: 0;padding: 0;}
+      .ntcPiesEscuelas .itemPost .titlePost{font-size: 14px;line-height: 20px;}
+      .ntcPiesEscuelas .itemPost .datePost{margin-bottom:4px;}
+      .videoPortada {min-height: 210px;overflow: hidden;}
+      .titlePost.titleVideoPortada{font-size: 14px;line-height: 20px;}
+
+   /*  Metas educacion */
+      
+      .boxid_.metasEducacion {display: none;}
+      .metasPortada .container .grid_12 {width: 100%;}
+      .boxid_.metasPortada ul {list-style: none; padding: 0;margin: 0;position: relative;top: -92px;overflow: hidden;}
+      .boxid_.metasPortada li {float: right;text-align: center;padding: 0px;font-size: 10px;text-transform: uppercase;color: #0056a6;display: table;padding-left: 10px;}
+      .boxid_.metasPortada li span {font-size: 30px;font-weight: 300;color: #3fa9f5;}
+      .footerNav.m_hidden{display: none !important;}
+
+   /* Noticias portada */
+
+      .portadaNtcPrinc .itemPost {margin-bottom: 40px;}
+      .portadaNtcPrinc .itemPost .imgPost {position:relative; float: left; overflow: hidden; width: 300px;}
+      .portadaNtcPrinc .itemPost .titlePost {margin-left: 320px; line-height: 26px;}
+      .portadaNtcPrinc .itemPost .datePost {margin: 0 0 0 320px; padding: 0 0 10px 0;}
+      .portadaNtcPrinc .itemPost .estractPost {margin-left: 320px; padding-right: 20px;height: 55px; overflow: hidden; }
+      .portadaNotc4Rows .itemPost .titlePost {font-size: 14px; line-height: 20px;}
+      .portadaNotc4Rows .itemPost {margin-bottom: 15px;}
+      .ntcPortada1 .grid_3 .boxPortadaTitle {display: none; }
+      .ntcPortada1 .container .grid_4 {width: 100%;}
+      .banner-portada{display:none;}
+      .ntcPortada1 .container .grid_5 {width: 70%;}
+      .ntcPortada1 .container .grid_3 {width: 25%;}
+      /*.ntcEnterateSeccion .itemPost .imgPost {display: none;}*/
+      .ntcEnterateSeccion .itemPost.ntf {margin-left: 0;}
+      .portadaNotc4Rows .titlePost {font-size: 14px; line-height: 16px;}
+      .boxPost_.portadaNtcPrinc img {width: 100%;}
+
+   /* Fixed social */
+
+      .fixedsocial li {float: left; margin-right: 5px;}
+      .fixedsocial {top: initial;bottom: 0;position: fixed;left: 0;right: 0;bottom: -15px;margin-left: auto;margin-right: auto;display: block;width: 250px;height: 60px;}
+      .fixedsocial span.tooltip:after {border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid transparent; border-top: 6px solid #484848; left: 45%; top: 23px;}
+      .fixedsocial ul li:hover span.tooltip {right: initial;}
+      .fixedsocial span.tooltip {top: -35px; left: 0; right: 0;}
+      .boxid_.footerCopyright {padding-bottom: 80px;}
+
+   /* Media carousel */
+
+      #owl-carouselPortada .owl-controls, #owl-carouselPortada .owl-controls .owl-buttons {width: 768px;}
+      #owl-carouselPortada .img-carousel img{min-width: initial; width: 100%;}
+      #owl-carouselPortada .title-item-carousel h1{padding: 0 50px;font-size: 26px;line-height: 28px;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-prev{left: 0;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-next {right: 0;}
+      #owl-carouselPortada .img-carousel{min-height:initial;max-height: 350px;}
+
+   /* SERVICIOS */
+
+      .ctnServiciosOptions .serviciosMenu ul li a {margin: 0 40px;}
+      .ctnServiciosOptions .serviciosMenu > ul {float: none;}
+      .boxPortadaTitle.servicios {margin-bottom: 20px;}
+      .ctnServiciosOptions .serviciosMenu ul li.active:after {left: calc(100% - 102px);}
+
+   /* Servicios portada */
+
+      .listaServicios {padding: 20px;}
+      .listaServicios li {width: 100%;font-size:13px;}
+      .boxService_ ul {height: 70%;display: block;}
+      .boxService_ {height: 275px;}
+      .boxService_ .icon {margin-top: 0px;}
+
+   /* Footer */
+
+   /* Enlace optic */
+
+      .footerInfo .ctnFotterInfo a.norticLinkMobile {padding: 10px; display: block;}
+      
+   /* Contacto */
+
+      .imagBox {width: 512px!important;}
+      #map {height: 400px !important;}
+      .grid_8 .ntcMini.duplex .grid_4 {width: 100%;}
+      .grid_8 .ntcMini.duplex .grid_4:nth-child(2n) .itemPost {margin-left: 0;}
+      .grid_8 .ntcMini.duplex .grid_4 .itemPost {margin-bottom: 18px;}
+
+   /* Seccion noticias */
+
+      .displayCtgNtc .ntcFull.medium.single .itemPost {margin-bottom: 20px;}
+      .displayCtgNtc .ntcFull .itemPost .estractPost {display: none;}
+      .ntcFull.single.carruselPost .itemPost .titlePost {font-size: 20px;line-height: 22px;}
+      .carruselPost .imgPost {max-height: 260px;}
+      .ntcMini.duplex .grid_4:nth-child(2n) .itemPost{margin-left: 0;}
+      .ntcMini.single .grid_4:nth-child(2n+1) .itemPost{padding-left: 0;}
+      .ntcMini .grid_4 {width: 100%;}
+      .ntcFull.single .grid_4:nth-child(2n+1) .itemPost .imgPost  {height: 80px; width: 100px; float: left;}
+      .ntcFull.single .grid_4:nth-child(2n+1) .itemPost .titlePost  {margin-left: 112px;font-size: 14px;line-height: 18px;}
+      .ntcFull.single .grid_4:nth-child(2n+1) .itemPost .datePost  {margin-left: 112px; width: 100%;}    
+      .ntcFull.single .grid_4:nth-child(2n+1) .itemPost {padding: 0;}
+      .ntcFull.single .grid_4:nth-child(2n+1) .itemPost img {width: auto; min-width: 100%; left: -20%;}
+      .ntcFull.single .grid_4:nth-child(2n+1){width: 100%;}
+      .ntcEventos .ntcMini.x2 .itemPost .imgPost, .ntcDocentes .ntcMini.x4 .itemPost .imgPost {display: none;}
+      .ntcEventos .ntcMini.x2 .itemPost .titlePost, .ntcDocentes .ntcMini.x4 .itemPost .titlePost {margin-left: 0;}
+      .ntcEventos .ntcMini.x2 .itemPost .datePost, .ntcDocentes .ntcMini.x4 .itemPost .datePost {margin-left: 0;}
+      
+   /* Direcciones */
+
+      .ctnDireccionTitle h1 {font-size: 30px;padding: 0 30px 0 0;}
+      .direccionMainImage {height: 350px;}
+   }  
+
+@media only screen and (min-width: 560px) and (max-width: 768px) {
+      /* Body App Page */
+    .AppBodyPage {
+    display: block;
+    min-height: 650px;
+    }
+   /* HEADER */
+      .logo {width: 318px;margin-top: 18px;}
+
+   /* BIBLIOTECA DIRECCIONES */
+      .sidebarBiblioteca {margin: 0px;}
+      .direccionContent {background: none;}
+      .sidebarBiblioteca h5:after {display: none;}
+      .sidebarBiblioteca {margin: 0px 0 0 -8px;box-shadow: none;padding-right: 0;}
+      .sidebarBiblioteca ul li a {font-size: 12px;}
+      .boxDocumentos .contentDocs ul li .typeDocs, .boxDocumentos .contentDocs ul li .dateDocs {display: none;}
+      .boxDocumentos .contentDocs ul li .titleDocs {width: 90%;}
+      .direccionMainImage .container {overflow: inherit;}
+      .boxid_.direccionHeader .ctnDireccionTitle {}
+
+   /* buscador */ 
+      .boxMainSearch #formMainSearch input[type="text"]{ width: calc(80% - 24px); height: 25px; border: 2px solid #0056a6; padding: 10px 10px; font-size: 16px; font-weight: normal; color: #666666; background: #fff; float: left; outline: none; }
+      .boxMainSearch #formMainSearch .boxSubmitMainSearch { background: #0056a6; display: block; overflow: hidden; width: 20%; height: 49px; font-family: 'gpweb'; z-index: 0; position: relative; }
+
+   /* Menu */
+      .primaryNav .widgetTabNav_transmisiones, .primaryNav .widgetTabNav_noticias {margin: 0 18px 0 0}
+      .primaryNav .imageTabNav, .primaryNav .transmisionesTabNav {height: 120px;}
+      .primaryNav .titleList {font-size: 13px;}
+
+
+   /*  Seccion de videos  */
+
+      .princVideoRow .ntcVideoRow .ctnFullNtc .ntcFull .itemPost .imgPost {position: relative; overflow: hidden; height: 80px; background: transparent; max-height: 90px; margin-bottom: 6px; }
+
+   /* Noticias portada */
+
+      .portadaNotc4Rows .titlePost {font-size: 16px;line-height: 20px; }
+      .boxPost_.portadaNtcPrinc img {width: 100%;}
+      .ntcPortada1 .boxPortadaTitle h2 {margin-bottom: -15px;}
+      .portadaNtcPrinc .itemPost .estractPost {height: 55px; overflow: hidden; margin-bottom: 10px;  }
+
+
+   /* Fixed social */
+
+      .fixedsocial li {float: left; margin-right: 5px;}
+      .fixedsocial {top: initial;bottom: 0;position: fixed;left: 0;right: 0;bottom: -15px;margin-left: auto;margin-right: auto;display: block;width: 250px;height: 60px;}
+      .fixedsocial span.tooltip:after {border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid transparent; border-top: 6px solid #484848; left: 45%; top: 23px;}
+      .fixedsocial ul li:hover span.tooltip {right: initial;}
+      .fixedsocial span.tooltip {top: -35px; left: 0; right: 0;}
+
+   /* Grid media custom */
+
+      .container{margin: 0 auto;width: 560px;overflow: hidden;}
+      .container .grid_1, .container .grid_2, .container .grid_3, .container .grid_4, .container .grid_5, .container .grid_6, .container .grid_7, .container .grid_8, .container .grid_9, .container .grid_10, .container .grid_11, .container .grid_12 {width: 520px;clear: both;float: none;margin-left: 0;margin-right: 0;display: inline-block;/* padding-left: 20px;padding-right: 20px; */zoom: 1;}
+      .m_hidden{display: none !important;}
+      .l_hidden{display: block !important;}
+      .boxid_.l_hidden{display: table;}
+      
+   /* Media carousel */
+
+      #owl-carouselPortada .owl-controls, #owl-carouselPortada .owl-controls .owl-buttons {width: 456px;}
+      #owl-carouselPortada .img-carousel img{min-width: initial; width: 100%;}
+      #owl-carouselPortada .title-item-carousel h1{margin: 0 80px;font-size: 16px;line-height: 18px;padding: 20px;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-prev{left: 0;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-next {right: 0;}
+      #owl-carouselPortada .img-carousel {min-height:initial;}
+      #owl-carouselPortada .title-item-carousel h1 a {font-size: 24px; line-height: 28px;}
+      #owl-carouselPortada .title-item-carousel h1 {text-align: center;}
+      #owl-carouselPortada .img-carousel {height: 300px;max-height: 300px;}
+
+   /* Servicios portada */
+
+      .listaServicios {padding: 20px;}
+      .listaServicios li {width: 100%;font-size:13px;}
+      .boxService_ ul {height: 70%;display: block;}
+      .boxService_ {width: 33.33%;height:auto;}
+      p.serviciosPortadaDescription {display: none;}
+      .ctn_servicios_portada {display: block;}
+      .serviciosPortadaTitle {font-size: 15px;}
+      .boxService_ .icon:after {content: "";width: 90%;height: 3px;background: rgba(255, 255, 255, 0.67);position: absolute;bottom: -12px;left: 5%;}
+      .boxService_.seccionAlumnos, .boxService_.seccionDocentes, .boxService_.seccionOtros {height: auto;}
+      .boxService_:hover > a {opacity: 1;}
+      .boxServiciosVerTodos {display: none;}
+      .boxService_ .icon:after {display: none;}
+
+   /* Servicios */
+
+      .servicioIntro {float: none;width: 100%;padding-right: 0;margin-right: 30px;}
+      .serviciosList {border-left: none; padding-left:0;}
+      .ctnServiciosOptions .serviciosMenu > ul {float: left;margin-top: 20px;}
+      .ctnServiciosOptions .serviciosMenu ul li {margin-left: 0;margin-right: 10px;}
+      .ctnServiciosOptions .serviciosMenu ul li a {/* margin-left: 0; */}
+
+
+   /* Footer */
+
+      /* enlace optic */
+      .footerInfo .ctnFotterInfo a.norticLinkMobile {padding: 10px; display: block;}
+      /* margin footer */
+      .Copyright {margin-bottom: 80px;}
+      .boxid_.footerCopyright .Copyright ul li {float:none;}
+      .boxid_.footerCopyright {display: none;}
+
+   /* noticias abiertas */
+
+      .formGroup input.formItem, .formGroup textarea.formItem {padding:0 !important;}
+
+   /* Contacto */
+
+      .formGroup textarea.formItem {width: 100% !important;}
+      .imagBox {width: 108%!important;margin-left: -20px;}
+      #map {height: 350px !important;}
+      .imagBox ul {margin: 0;height: 100%;width: 92%;padding: 4%;}
+      .boxid_.contactBox .ctnContactInfo {border-right: none;}
+      .boxid_.contactBox {background: rgba(236, 243, 251, 0.52);}
+      .boxid_.contactBox > .container {margin-top: -100px;}
+
+   /* Direcciones */
+
+      .direccionMainImage {height: 320px;max-height: 380px;}
+      .boxSearch {width: 170px;top: 26px;}
+      .ctnDireccionTitle h1 {font-size: 30px;padding: 0 30px 0 0;}
+      .direccionMainImage {height: 350px;}    
+      .boxService_:hover .listaServicios {visibility: hidden;opacity: 0;}
+      .boxService_:hover > span, .boxService_:hover > div, .boxService_:hover > p{opacity:1;}
+      .pageTitle h1 {font-size: 26px;line-height: 32px;font-weight: normal;}
+      .itemPost {margin-bottom: 18px;}
+      .ntcMini.duplex .grid_4:nth-child(2n) .itemPost {margin-left: 0;}
+      .direccionContent .ntcFull.insideNTCDirecciones .itemPost .estractPost {display: none;}
+      .boxid_.direccionHeader .ctnDireccionTitle {top: 0;}
+
+   /* Redes Sociales */
+
+      .boxid_.socialIconsSection ul li {margin: 0;}
+      .boxid_.socialIconsSection {height: 160px;}
+      .boxid_.socialIconsSection  ul li:hover > span.tooltip {display: none;}
+      
+   /* Seccion noticias */
+
+      .displayCtgNtc .ntcFull.medium.single .itemPost .titlePost {font-size: 16px; line-height: 22px; font-weight: 300; margin-top: 0; margin-bottom: 10px; color: #484444; overflow: hidden; margin-left: 190px;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .datePost {margin-left: 190px; padding: 0 0 5px 0; font-size: 10px;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .estractPost {display: none;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost {margin-bottom: 20px;}
+      .carruselPost .imgPost {max-height: 260px;}
+      .ntcMini.duplex .grid_4:nth-child(2n) .itemPost{margin-left: 0;}
+      .ntcMini.single .grid_4:nth-child(2n+1) .itemPost{padding-left: 0;}
+      .ntcFull .itemPost .imgPost img {width: 100%;}
+      .ntcEscuelas .ctnFullNtc .ntcFull {width: 100%;}
+      .ntcEstudiantes .ntcFull .itemPost .imgPost {width: 100%; height: 250px; }
+      .ntcEstudiantes .ntcFull .itemPost .imgPost img {width: 100%; height: 100%;}
+      .ntcEventos .ntcFull .itemPost .imgPost {width: 100%; height: 250px; }
+      .ntcEventos .ntcFull .itemPost .imgPost img {width: 100%; height: 100%;}
+      .ntcEnterateSeccion .itemPost {height: 60px;}
+
+   /* 404 */
+
+      .mainTitle404 h1 {font-size: 10em;}
+      .oopsText {font-size: 3em;}
+      .boxid_.content404:before {content: "";height: 57%;}      
+   }
+   
+   /* esta es para tablet small y medium */
+
+@media only screen and (max-width: 560px)  {
+    /* Body App Page */
+    .AppBodyPage {
+    display: block;
+    min-height: 485px;
+    }
+   /* HEADER */
+      .logo {width: 300px;margin-left: 20px;margin-top: 22px;}
+      .nav_right{display: none;}
+      .nav_left{margin-left:0;}
+
+   /* BIBLIOTECA DOCUMENTOS DIRECCIONES */
+      
+      .sidebarBiblioteca {margin: 0px;box-shadow: none;padding-right: 0;}
+      .direccionContent {background: none;}
+      .sidebarBiblioteca h5:after {display: none;}
+
+      .direccionContent background: none;
+      .sidebarBiblioteca {margin: -10px 0 0 -8px;}
+      .sidebarBiblioteca ul li a {font-size: 12px;}
+      .boxDocumentos .contentDocs ul li .typeDocs, .boxDocumentos .contentDocs ul li .dateDocs {display: none;}
+      .sidebarBiblioteca ul li a:before {right: 35px;}
+      .sidebarBiblioteca ul li a:hover:before {content: "\e93c"; right: 25px;}
+      .boxDocumentos .contentDocs ul li .titleDocs {width: 90%;}
+      .direccionMainImage .container {overflow: inherit;}
+      .boxid_.direccionHeader .ctnDireccionTitle {top:0;}
+   
+   /* buscador */ 
+
+      .boxMainSearch #formMainSearch input[type="text"]{  width: 60%;  height: 27px; border: 2px solid #0056a6; padding: 8px 5px 10px 10px;  font-size: 18px; font-weight: normal;  border-color: ;  color: #798692;  background: #fff;  float: left; }
+      .boxMainSearch #formMainSearch .boxSubmitMainSearch { background:#0056a6; display: block; overflow: hidden;  width: 29%; height: 49px; font-family: 'gpweb'; z-index: 0; position: relative; }
+      .boxMainSearch #formMainSearch input#btSubmitMainSearch{background: none;position: absolute;top: -4%;left: -1%;border: none;height: 48px;color: #fff;cursor: pointer;font-size: 18px;border-radius: 3px;display: block;/* width: 100%; */padding-left: 33px;color: #fff;font-weight: 500;}
+
+   /* Seccion de videos  */
+      .princVideoRow .ntcVideoRow .ctnFullNtc .ntcFull .itemPost .imgPost {position: relative; overflow: hidden; height: 200px; background: transparent; max-height: 220px; margin-bottom: 6px; }
+      .princVideoRow .ntcVideoRow .ctnFullNtc .ntcFull { width: 100%; float: left;  margin-right: 0;  }
+      .princVideoRow .ntcVideoRow .ntcFull .itemPost .titlePost {font-size: 18px; line-height: 22px; font-weight: 300;margin-top: 15px; color: #484444; }
+      .displayCtgNtc .ntcFull.medium.single .itemPost .titlePost {font-size: 16px; line-height: 22px; font-weight: 300; margin-top: 0; margin-bottom: 10px; color: #484444; overflow: hidden; margin-left: 160px;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .imgPost {position: relative; overflow:hidden; width: 150px; height: 110px; background: #ddd; float: left; }
+      .displayCtgNtc .ntcFull .itemPost .estractPost {display: none;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .datePost {margin-left: 160px; padding: 0 0 5px 0; font-size: 11px;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost  {margin-bottom: 20px;}
+      .displayCtgNtc .boxPortadaTitle h2 {font-size: 24px;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .imgPost img {width: 100%;}
+
+      .m_hidden{display: none !important;}
+      .l_hidden{display: block !important;}
+      .boxid_.l_hidden{display: table;}
+      
+   /* Noticias portada */
+      .portadaNotc4Rows .titlePost {font-size: 15px;line-height: 18px;}
+      .boxPost_.portadaNtcPrinc img {width: 100%;}
+      .ntcPortada1 .boxPortadaTitle h2 {margin-bottom: -15px;}
+
+   /* Fixed social */
+      .fixedsocial li {float: left; margin-right: 5px;}
+      .fixedsocial {top: initial; bottom: 0; position: fixed; left: 0; right: 0; bottom: 0; margin-left: auto; margin-right: auto; display: block; width: 250px; height: 60px;}
+      .fixedsocial span.tooltip:after {border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid transparent; border-top: 6px solid #484848; left: 45%; top: 23px;}
+      .fixedsocial ul li:hover span.tooltip {right: initial;}
+      .fixedsocial span.tooltip {top: -35px; left: 0; right: 0;}
+
+   /* Media carousel */
+      #owl-carouselPortada .owl-controls, #owl-carouselPortada .owl-controls .owl-buttons {width: 456px;}
+      #owl-carouselPortada .img-carousel img{max-width: inherit;min-width: initial;width: 180%;position: absolute;left: -40%;}
+      #owl-carouselPortada .title-item-carousel h1{text-align: center;padding: 0 30px;font-size: 16px;line-height: 20px;margin-bottom: 4px;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-prev{left: 0;}
+      #owl-carouselPortada .owl-controls .owl-buttons .owl-next {right: 0;}
+      #owl-carouselPortada .img-carousel{min-height:initial;/* max-height: 200px; */position: relative;height: 100%;}
+      #owl-carouselPortada .title-item-carousel {min-height: inherit;padding: 0;height: 100px;}
+      .item-carousel {height: 300px;}
+      #owl-carouselPortada .title-item-carousel h1 a {font-size: 24px; line-height: 28px;}
+
+   /* Servicios portada */
+      .listaServicios {padding: 20px;}
+      .listaServicios li {width: 100%;font-size:13px;}
+      .boxService_ ul {height: 70%;display: block;}
+      .boxService_ {width: 100%; height:auto;}
+      .boxService_ .icon:after {content: "";width: 90%;height: 3px;background: rgba(255, 255, 255, 0.67);position: absolute;bottom: -12px;left: 5%;}      
+      .boxService_ .icon {float: left;margin-left: 20px;margin-right: 10px;font-size: 40px;position: relative;}
+      .serviciosPortadaTitle {text-align: left;font-size: 18px;}
+      p.serviciosPortadaDescription {padding: 0;height: 15px;overflow: hidden;margin: 0;text-align: left;white-space: nowrap;text-overflow: ellipsis;max-width: 290px;/*  padding-right: 10px;  */width: calc(100% - 90px);}
+      .boxService_ {padding: 20px 0;}
+      .boxService_.seccionAlumnos, .boxService_.seccionDocentes, .boxService_.seccionOtros {height: auto;}
+      .boxService_:hover > a {opacity: 1;}
+
+   /* Servicios */
+      .servicioIntro {float: none; width: 100%; padding-right: 0;}
+      .serviciosList {border-left: none; padding-left:0;}
+      .ctnServiciosOptions .serviciosMenu > ul {float: left;margin-top: 20px;}
+      .ctnServiciosOptions .serviciosMenu ul li {margin-left: 0;margin-right: 8px;}
+      .ctnServiciosOptions .serviciosMenu ul li a {margin-left: 0;}
+      .ctnServiciosOptions .serviciosMenu ul li.active:after {left: calc(100% - 64px);}
+
+   /* Banners Central Portada */
+      .itemCarrousel {margin: 0 auto;display: block;position: relative;width: 300px;}
+
+   /* Footer */
+      /* enlace optic */
+      .footerInfo .ctnFotterInfo a.norticLinkMobile {padding: 10px; display: block;}
+      /* margin footer */
+      .Copyright {margin-bottom: 100px;}
+      .boxid_.footerCopyright .Copyright ul li {/* float:none; */}
+
+   /* Noticias abiertas */
+      .formGroup input.formItem, .formGroup textarea.formItem {/* padding:0 !important; */}
+
+   /* Contacto */
+      .formGroup textarea.formItem {width: 100% !important;}
+      .imagBox {width: 100%!important;}
+      #map {height: 350px !important;}
+      .imagBox ul {/* background: rgba(255, 255, 255, 0.4) !important; */padding: 36px 36px 36px 0px;}
+      .imagBox ul li {font-size:10px;}
+      .imagBox ul li+li {font-size:28px;}
+      .imagBox ul li.contactDescription {color:#0056b9}
+      .boxid_.contactBox .ctnContactInfo {border-right: none;}
+      .boxid_.contactBox {background: rgba(236, 243, 251, 0.52);}
+      .boxid_.contactBox > .container {margin-top: -80px;}
+
+   /* Direcciones */
+
+      .direccionMainImage {height: 350px;}
+      .boxSearch {width: 170px;top: 22px;}
+      .ctnDireccionTitle h1, .ctnDireccionTitle h1 a {font-size: 26px;}
+      .direccionMainImage {height: 350px;}
+      .boxServiciosVerTodos {position: relative;left: 0;float: initial;margin: 0;padding: 0;display: none;}
+      .boxid_ {padding: 20px 0;}
+      .boxPortadaTitle h2 {margin-bottom: 20px;font-size: 20px;line-height: 22px;}
+      .ntcEnterateSeccion .itemPost.ntf {margin-left: 0;}
+      .itemPost {margin-bottom: 12px;}
+      .boxService_:hover .listaServicios {visibility: hidden;opacity: 0;}
+      .boxService_:hover > span, .boxService_:hover > div, .boxService_:hover > p{opacity:1;}
+      .pageTitle h1 {font-size: 26px;line-height: 32px;font-weight: normal;}
+      .direccionContent .ntcFull.insideNTCDirecciones .itemPost .estractPost {display: none;}
+      .direccionContent .ntcFull.insideNTCDirecciones .itemPost .titlePost {font-size: 16px;line-height: 20px;}
+
+   /* Redes Sociales */
+
+      .boxid_.socialIconsSection ul li {margin: 0;}
+      .boxid_.socialIconsSection .tituloRedes {font-size: 17px;}
+      .boxid_.socialIconsSection {height: 160px;}
+      .boxid_.socialIconsSection  ul li:hover > span.tooltip {display: none;}
+
+   /* Seccion noticias */
+
+      .ntcFull.single.carruselPost .itemPost .titlePost {font-size: 20px;line-height: 22px;}
+      .carruselPost .imgPost {max-height: 260px;}
+      .ntcMini.duplex .grid_4:nth-child(2n) .itemPost{margin-left: 0;}
+      .ntcMini.single .grid_4:nth-child(2n+1) .itemPost{padding-left: 0;}
+      .ntcFull .itemPost .imgPost img {width: 100%; }
+      .ntcEscuelas .ctnFullNtc .ntcFull {width: 100%;}
+
+      /* 404 */
+
+      .mainTitle404 h1 {font-size: 8em;line-height: 160px;}
+      .textButton404 {line-height: 24px;}
+      .boxid_.content404:before {height: 79%;}
+
+   }
+
+@media only screen and (max-width: 479px) {
+   /* HEADER */
+      .logo {width: 300px;margin-left: 0;}
+      .ctn_header .container, .boxid_.header .container {max-width: 300px;}
+   /* buscador */ 
+      .boxMainSearch #formMainSearch fieldset label { margin-right: 10px;  font-size: 16px; color: #798692; font-family: inherit; display: block;  margin-bottom: 5px;}
+      .boxMainSearch #formMainSearc input[type="checkbox"], input[type="radio"] { padding: 0;  float: left;  margin-right: 5px; margin-top: 3px;   }
+
+   /* Noticias portada */
+
+      .portadaNotc4Rows .titlePost {line-height: 18px;font-size: 13px;font-weight: 400;color: #191c1f;}
+      .boxPost_.portadaNtcPrinc img {width: 100%;}
+      .ntcPortada1 .boxPortadaTitle h2 {margin-bottom: -15px;}
+      .ntcEducacionMarcha .ntcFull.large .itemPost .imgPost {max-height: 200px;}
+      .ntcEducacionMarcha .ntcFull.large .itemPost .imgPost img {width: 100%; height: 200px;}
+      .ntcEducacionMarcha .ntcFull.single.carruselPost .itemPost .titlePost {margin: 5px 5px 0 0;}
+
+   /* Fixed social */
+
+      .fixedsocial li {float: left; margin-right: 5px;}
+      .fixedsocial {top: initial; bottom: 0; position: fixed; left: 0; right: 0; bottom: 0; margin-left: auto; margin-right: auto; display: block; width: 250px; height: 60px;}
+      .fixedsocial span.tooltip:after {border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid transparent; border-top: 6px solid #484848; left: 45%; top: 23px;}
+      .fixedsocial ul li:hover span.tooltip {right: initial;}
+      .fixedsocial span.tooltip {top: -35px; left: 0; right: 0;}
+
+   /* Hidden */
+
+      .m_hidden{display: none;}
+      .l_hidden{display: block;}
+      .boxid_.l_hidden{display: table;}
+
+   /* media carousel */
+
+      #owl-carouselPortada .owl-controls, #owl-carouselPortada .owl-controls .owl-buttons {width: 98%;}
+      #owl-carouselPortada .img-carousel img{min-width: initial;width: 180%;position: absolute;left: -40%;}
+      
+   /* Servicios portada */
+
+      .boxService_ .icon {float: left;margin-left: 20px;margin-right: 10px;font-size: 40px;position: relative;}
+      .serviciosPortadaTitle {text-align: left;font-size: 18px;}
+      p.serviciosPortadaDescription {padding: 0;height: 15px;overflow: hidden;margin: 0;text-align: left;white-space: nowrap;text-overflow: ellipsis;max-width: 290px;width: calc(100% - 90px);}
+      .boxService_ {padding: 20p;}
+      .boxService_:hover .listaServicios {visibility: hidden;opacity: 0;}
+      .boxService_:hover > span, .boxService_:hover > div, .boxService_:hover > p{opacity:1;}
+
+   /* Servicios */
+      .servicioIntro {float: none; width: 100%; padding-right: 0;}
+      .serviciosList {border-left: none; padding-left:0;}
+      .ctnServiciosOptions .serviciosMenu > ul {float: left;margin-top: 20px;}
+      .ctnServiciosOptions .serviciosMenu ul li {margin-left: 0;margin-right: 0px;}
+      .ctnServiciosOptions .serviciosMenu ul li a {margin: 0;font-size: 13px;padding: 0 7px;}
+      .ctnServiciosOptions .serviciosMenu ul li.active:after {left: calc(100% - 50px);}
+      
+   /* Footer */
+
+      /* enlace optic */
+      .footerInfo .ctnFotterInfo a.norticLinkMobile {padding: 10px;display: block;}
+      /* margin footer */
+      .Copyright {margin-bottom: 30px;padding: 0 30px;}
+      
+   /* Noticias abiertas */
+
+      span.shareTitle {float: none !important;}
+      .newsContent .socialShareIcons ul {padding:0 !important;}
+      .formGroup input.formItem, .formGroup textarea.formItem {padding:0 !important;}
+
+   /* Contacto */
+
+      .formGroup textarea.formItem {width: 100% !important;}
+      .imagBox {width: 100% !important;}
+      #map {height: 350px !important;}
+      .imagBox ul {background: rgba(255, 255, 255, 0.7) !important;padding: 30px 40px 30px 36px;}
+      .boxid_.contactBox .ctnContactInfo {border-right: none;}
+      .boxid_.contactBox {background: rgba(236, 243, 251, 0.52);}
+      .imagBox ul li+li {font-size: 28px;}
+      .imagBox ul li {line-height: 6px;font-size: 11px;padding: 10px 3px;}
+
+   /* Direcciones */
+
+      .direccionMainImage {height: 300px;}
+      .ctnDireccionTitle h1, .ctnDireccionTitle h1 a {font-size: 19px;}
+      .direccionMainImage {height: 350px;/* padding-top: 30px; */}
+      .boxServiciosVerTodos {position: relative;left: 0;float: initial;margin: 0;padding: 0;display: none;}
+      .boxid_ {/* padding: 20px 0; */}
+      .boxPortadaTitle h2 {margin-bottom: 20px;font-size: 20px;line-height: 22px;}
+      .boxid_.bottomBannersPortada {display: none !important;}
+      .ntcEnterateSeccion .itemPost.ntf {margin-left: 0;}
+      .itemPost {margin-bottom: 12px;}
+      .portadaNotc4Rows .itemPost .imgPost {width: 100px;}
+      .portadaNotc4Rows .datePost, .portadaNotc4Rows .titlePost, .portadaNotc4Rows .estractPost {margin-left: 110px;}
+      .portadaNtcPrinc .estractPost {display: none;}
+      .direccionContent .insideNTCDirecciones .itemPost .imgPost {display: none;}
+      .direccionContent .ntcFull.insideNTCDirecciones .itemPost .datePost, .direccionContent .ntcFull.insideNTCDirecciones .itemPost .titlePost {margin-left: 0;}
+
+   /* Servicios */
+
+      .boxService_.seccionAlumnos, .boxService_.seccionDocentes, .boxService_.seccionOtros {height: auto;}
+
+   /* Redes Sociales */
+
+      .boxid_.socialIconsSection ul li {margin: 0;padding: 3px;}
+      .boxid_.socialIconsSection .tituloRedes {font-size: 17px;}
+      .boxid_.socialIconsSection  ul li:hover > span.tooltip {display: none;}
+
+   /* MEDIA ARTICULOS CATEGORIAS DESPLIEGUE */
+
+      .displayCtgNtc .ntcFull.medium.single .itemPost .imgPost { position: relative; width: 100%; height: 100%; background: #ddd; }
+      .displayCtgNtc .ntcFull.medium.single .itemPost .imgPost img {width: 100%}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .datePost {color: #0056a6; margin-left: 0; font-size: 11px; margin-top: 10px;}
+      .displayCtgNtc .ntcFull.medium.single .itemPost .titlePost { font-size: 16px; line-height: 20px; font-weight: 300; margin-top: 0; margin-bottom: 10px; color: #484444; overflow: hidden; margin-left: 0;}
+
+   /* Seccion noticias */
+
+      .ntcEducacionMarcha .ntcFull.large.single.carruselPost .itemPost .titlePost {font-size: 16px; line-height: 20px;position: relative;text-shadow: none;box-shadow: none; color: #484444;font-weight: 400; padding: 0px; margin-top:5px; }
+      .itemPost,.ntcFull.single .grid_4:nth-child(2n+1) .itemPost {margin-left: 0;position: relative;margin-bottom: 25px;transition: 0.3s;color: #333;margin-right: 0;padding-right: 0;padding-left: 0;}
+      .ntcFull .itemPost .imgPost img {width: 100%;}
+      .ntcMini .grid_4,.ntcFull .grid_4 {padding: 0;}
+      .ntcFull.large .itemPost .imgPost {height:200px; }
+      .ntcFull.large .itemPost .imgPost img {width: auto;min-width: 110%;}
+      .ntcMini.duplex .grid_4:nth-child(2n) .itemPost{margin-left: 0px;}
+      .catNoticias .container .grid_8 {width: 100%;}
+
+   /* 404 */
+
+      .mainTitle404 h1 {font-size: 9.5em;line-height: 110px;}
+      .oopsText {font-size: 2em;display: block;width: 50%;}
+      .boxid_.content404:before {height: 79%;}
+      .mainTitle404 {width: 100%;padding: 0 20px;position: relative;}
+      .cartoon404 {width: 100%;}
+      .boxid_.content404:before {height: 46%;}
+
+   }
+
+@media only screen and (max-width: 357px) {
+   /* HEADER */
+      .logo {width: 300px;}
+   /* Seccion noticias */
+
+      .displayCtgNtc .ntcFull.medium.single .itemPost .imgPost { position: relative; overflow: hidden; width: 100%;height: 180px; background: #ddd; }
+      .ntcEducacionMarcha .ntcFull.large .itemPost .imgPost img {max-height: 150px;}
+      .ntcMini .grid_4 {padding: 0;}
+      .itemPost {position: relative;margin-bottom: 20px;transition: 0.3s;color: #333;}
+      .ntcFull.large .itemPost .imgPost {height: 160px;}
+      .ntcFull.large .itemPost .imgPost img {width: auto;min-width: 110%;}
+      .ntcMini.duplex .grid_4:nth-child(2n) .itemPost{margin-left: 0px;}
+      .ntcMini .itemPost .imgPost {width: 90px;}
+      .ntcMini .titlePost{font-size: 12px;margin-bottom:10px;line-height: 15px;color: #484444;font-weight: 500;height: 60px;overflow: hidden;}
+      .ntcMini .datePost,.ntcMini .titlePost,.ntcMini .estractPost {margin-left: 100px;margin-top: 0;margin-bottom: 0;}
+   }
+
